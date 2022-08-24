@@ -1,0 +1,46 @@
+.photo-preview__item {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border: 1px solid #555;
+  border-radius: 1px;
+}
+
+.photo-preview__item img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn__remove {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background-color: #fff;
+  border: 1px solid #555;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: rotate(46deg);
+}
+
+.btn__remove::before,
+.btn__remove::after {
+  content: '';
+  display: block;
+}
+
+.btn__remove::before {
+  height: 25px;
+  border-left: 2px solid #555;
+  transform: translateX(24px) translateY(1px);
+}
+
+.btn__remove::after {
+  width: 25px;
+  border-top: 2px solid #555;
+  transform: translateX(12px) translateY(-13px);
+}

@@ -1,0 +1,11 @@
+.container {
+  width: 960px;
+  min-height: 560px;
+  margin: 50px auto;
+  padding: 60px 80px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  background-image: url('../../../public/background_cell.png');
+  box-shadow: 0 5px 20px #ccc;
+}

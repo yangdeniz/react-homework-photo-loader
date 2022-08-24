@@ -1,0 +1,22 @@
+.photo-loader {
+  position: relative;
+  height: 240px;
+  border: 2px solid #777;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 48px;
+  line-height: 240px;
+  color: #555;
+  background: #fff;
+}
+
+.photo-loader input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  cursor: pointer;
+}
